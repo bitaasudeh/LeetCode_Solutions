@@ -1,0 +1,8 @@
+*.exe
+*.out
+*.log
+*.tmp
+config.json
+venv/
+.vscode/
+node_modules/
