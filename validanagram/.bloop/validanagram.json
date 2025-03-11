@@ -1,0 +1,200 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "validanagram",
+        "directory": "D:\\programming\\ScalaProject\\validanagram",
+        "workspaceDir": "D:\\programming\\ScalaProject\\validanagram",
+        "sources": [
+            "D:\\programming\\ScalaProject\\validanagram\\src\\main\\scala",
+            "D:\\programming\\ScalaProject\\validanagram\\src\\main\\scala-2.13",
+            "D:\\programming\\ScalaProject\\validanagram\\src\\main\\scala-2",
+            "D:\\programming\\ScalaProject\\validanagram\\src\\main\\java",
+            "D:\\programming\\ScalaProject\\validanagram\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+            "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar"
+        ],
+        "out": "D:\\programming\\ScalaProject\\validanagram\\.bloop\\validanagram",
+        "classesDir": "D:\\programming\\ScalaProject\\validanagram\\.bloop\\validanagram\\scala-2.13\\classes",
+        "resources": [
+            "D:\\programming\\ScalaProject\\validanagram\\src\\main\\resources",
+            "D:\\programming\\ScalaProject\\validanagram\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.12\\scala-compiler-2.13.12.jar",
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar",
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.22.0\\jline-3.22.0.jar",
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.13.0\\jna-5.13.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            },
+            "bridgeJars": [
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala2-sbt-bridge\\2.13.12\\scala2-sbt-bridge-2.13.12.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-17",
+                "options": [
+                    "-Duser.dir=D:\\programming\\ScalaProject\\validanagram"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "C:\\Program Files\\Java\\jdk-17",
+                "options": [
+                    "-Duser.dir=D:\\programming\\ScalaProject\\validanagram"
+                ]
+            },
+            "classpath": [
+                "D:\\programming\\ScalaProject\\validanagram\\.bloop\\validanagram\\scala-2.13\\classes",
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+                "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "2.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\Bita\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

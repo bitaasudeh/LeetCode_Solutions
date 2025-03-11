@@ -1,0 +1,4 @@
+[debug] [validanagram-test] Classpath dependencies List()
+[debug] [validanagram-test] Dependencies from configurations List(validanagram)
+[debug] Bloop wrote the configuration of project 'validanagram-test' to 'D:\programming\ScalaProject\validanagram\.bloop\validanagram-test.json'
+[success] Generated .bloop\validanagram-test.json
